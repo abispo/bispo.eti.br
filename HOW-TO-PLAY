@@ -1,0 +1,9 @@
+# How to play
+
+1. Install virtualenv
+2. Create the env directory in the root of the project (`virtualenv env`)
+3. Type `source env/bin/activate`
+4. Type `pip install -r requirements.txt`
+5. Run ./develop_server.sh start [PORT]
+5. Have fun
+
