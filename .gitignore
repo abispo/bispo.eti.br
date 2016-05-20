@@ -1,4 +1,10 @@
+# Vim backup files
 *~
+
+# Python project files
 env/
 *.pyc
+
+# Pelican pid file
+*.pid
 
