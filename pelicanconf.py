@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'pelican-themes/pelican-blue'
+# THEME = 'pelican-themes/pelican-blue'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
