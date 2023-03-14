@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Alessandro Bispo dos Santos'
 SITENAME = 'Alessandro Bispo'
-SITEURL = ''
+SITEURL = 'http://127.0.0.1:8000'
 
 PATH = 'content'
 
@@ -45,6 +45,7 @@ SIDEBAR_DIGEST = 'Developer'
 DISPLAY_PAGES_ON_MENU = True
 
 MENUITEMS = (
+    ('Blog', SITEURL),
     ('About', ''),
     ('Projects', '')
 )

@@ -6,7 +6,7 @@ authors = ["Alessandro Bispo dos Santos"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pelican = {extras = ["Markdown"], version = "^4.2.0"}
+pelican = {extras = ["markdown"], version = "^4.8.0"}
 
 [tool.poetry.dev-dependencies]
 
