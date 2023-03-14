@@ -21,5 +21,13 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
+# pelican-blue #####
+
+MENUITEMS = (
+    ('Blog', SITEURL),
+    ('About', ''),
+    ('Projects', '')
+)
+
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
