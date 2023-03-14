@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Alessandro Bispo dos Santos'
-SITENAME = 'bispo.eti.br'
+SITENAME = 'Alessandro Bispo'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
@@ -31,7 +31,23 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 10
 
-# THEME = 'pelican-themes/pelican-blue'
+THEME = 'themes/pelican-blue'
+
+# pelican-blue #####
+
+SOCIAL = (
+    ('linkedin', 'https://www.linkedin.com/in/alessandrobispo/'),
+    ('github', 'https://github.com/abispo/')
+)
+
+SIDEBAR_DIGEST = 'Developer'
+
+DISPLAY_PAGES_ON_MENU = True
+
+MENUITEMS = (
+    ('About', ''),
+    ('Projects', '')
+)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
