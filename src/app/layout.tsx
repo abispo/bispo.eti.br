@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Backend Engineer | APIs & Automation",
-  description: "Backend engineer specializing in RESTful APIs, microservices, and N8N workflow automation",
+  description:
+    "Backend engineer specializing in RESTful APIs, microservices, and N8N workflow automation",
 };
 
 export default function RootLayout({
