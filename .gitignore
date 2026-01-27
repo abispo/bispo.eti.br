@@ -147,3 +147,7 @@ cython_debug/
 
 # Pelican output dir
 output/
+
+.next/
+node_modules/
+out/
