@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: "/bispo.eti.br",
   // Optimize for static generation
   trailingSlash: true,
   images: {
