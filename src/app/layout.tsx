@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Backend Engineer | APIs & Automation",
+  title: "Alessandro Bispo • Gestor de Automação",
   description:
-    "Backend engineer specializing in RESTful APIs, microservices, and N8N workflow automation",
+    "Especialista em automação de processos, integração de sistemas, desenvolvimento de APIs e N8N. Transforme seu negócio com soluções inteligentes.",
 };
 
 export default function RootLayout({

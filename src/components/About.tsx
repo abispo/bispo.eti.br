@@ -6,7 +6,9 @@ export default function About() {
       id="about"
       className="py-20 px-4 sm:px-6 max-w-4xl mx-auto border-t border-zinc-800"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold mb-12">Sobre mim</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
+        Sobre mim
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Image - Shows first on mobile, second on desktop */}
         <div className="flex justify-center md:justify-end order-first md:order-last">

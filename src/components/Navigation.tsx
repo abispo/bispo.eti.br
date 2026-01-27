@@ -6,16 +6,16 @@ export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { href: "#about", label: "Sobre" },
+    { href: "#services", label: "Serviços" },
+    { href: "#projects", label: "Projetos" },
+    { href: "#contact", label: "Contato" },
   ];
 
   return (
     <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md border-b border-zinc-800 z-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
-        <h2 className="text-xl font-bold text-blue-400">Backend Engineer</h2>
+        <h2 className="text-xl font-bold text-blue-400">Alessandro Bispo</h2>
 
         {/* Desktop Menu */}
         <div className="hidden sm:flex gap-8">
