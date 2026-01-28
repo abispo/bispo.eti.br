@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bispo-portfolio
+    name: bispo.eti.br
     runtime: static
     buildCommand: npm run build
     staticPublishPath: ./out
