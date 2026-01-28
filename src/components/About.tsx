@@ -25,25 +25,23 @@ export default function About() {
         <div className="text-zinc-300 space-y-4">
           <p>
             Olá, sou o Alessandro, gestor de automação e desenvolvedor com mais
-            de 12 anos de experiência em otimização de processos, integração de
-            sistemas e desenvolvimento de APIs. Especializado em ferramentas
-            como Python, ManyChat e outras soluções inovadoras, meu objetivo é
-            ajudar empresas a aumentar sua eficiência operacional e reduzir
-            custos por meio de automações inteligentes e personalizadas.
+            de 12 anos de experiência criando soluções para otimizar processos,
+            integrar sistemas e automatizar operações do dia a dia. Trabalho
+            principalmente com Python, N8N, ManyChat e outras ferramentas de
+            automação, sempre com foco em eficiência, redução de custos e
+            resultados práticos para o negócio.
           </p>
           <p>
-            Com um olhar técnico e estratégico, atuo desde a análise de
-            processos até a implementação de soluções completas, garantindo que
-            cada automação seja adaptada às necessidades específicas do negócio.
-            Minha experiência como desenvolvedor me permite criar integrações
-            robustas entre sistemas, além de desenvolver APIs que facilitam a
-            comunicação e a automação de tarefas complexas.
+            Atuo desde a análise dos processos até a implementação das
+            automações, cuidando para que cada solução realmente faça sentido
+            para a rotina da empresa. Minha experiência como desenvolvedor me
+            permite criar integrações estáveis entre plataformas e desenvolver
+            APIs que simplificam tarefas complexas e repetitivas.
           </p>
           <p>
-            Seja para simplificar operações repetitivas, integrar plataformas ou
-            criar fluxos de trabalho automatizados, estou aqui para transformar
-            desafios em resultados. Vamos trabalhar juntos para levar seu
-            negócio ao próximo nível?
+            Se você precisa automatizar processos, integrar sistemas ou ganhar
+            escala sem aumentar custos, posso te ajudar. Vamos conversar e ver
+            como a automação pode trabalhar a favor do seu negócio.
           </p>
         </div>
       </div>
