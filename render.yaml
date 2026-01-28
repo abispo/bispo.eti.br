@@ -1,11 +1,10 @@
 services:
-  # Uncomment the following to deploy this app as a static site on render
   - type: web
-    name: nextjs-static
+    name: bispo-portfolio
     runtime: static
     buildCommand: npm run build
-    staticPublishPath: out
-    pullRequestPreviewsEnabled: true # optional
+    staticPublishPath: ./out
+    pullRequestPreviewsEnabled: true
     envVars:
       - key: NODE_ENV
         value: production
