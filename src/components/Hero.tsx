@@ -13,16 +13,16 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
           <a
-            href="#projects"
+            href="#services"
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition"
           >
-            View Projects
+            Serviços
           </a>
           <a
             href="#contact"
             className="border border-zinc-600 hover:border-white px-6 py-3 rounded-lg font-medium transition"
           >
-            Get in Touch
+            Contato
           </a>
         </div>
       </div>
