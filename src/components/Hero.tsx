@@ -14,13 +14,13 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 pt-4">
           <a
             href="#services"
-            className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
           >
             Serviços
           </a>
           <a
             href="#contact"
-            className="border border-zinc-600 hover:border-white px-6 py-3 rounded-lg font-medium transition"
+            className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
           >
             Contato
           </a>
