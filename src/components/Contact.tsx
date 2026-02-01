@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a
           href="mailto:alessandro@bispo.eti.br"
-          className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-400"
+          className="bg-sky-600 hover:bg-sky-500 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-sky-400"
         >
           📧 Email
         </a>
@@ -23,7 +23,7 @@ export default function Contact() {
           href="https://br.linkedin.com/in/alessandrobispo"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400"
+          className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-blue-400"
         >
           💼 LinkedIn
         </a>
@@ -31,7 +31,7 @@ export default function Contact() {
           href="https://wa.me/+5511946099765?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20de%20automação."
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
+          className="bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-green-400"
         >
           💬 WhatsApp
         </a>
